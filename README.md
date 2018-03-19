@@ -12,6 +12,18 @@ $ pip install doit-redis
 ```
 
 Usage:
+
+Add backend in the `doit.cfg` file:
+```
+[GLOBAL]
+backend = redis
+
+[BACKEND]
+redis = doit_redis:RedisDB
+```
+
+`backend` can also be set in the `dodo.py` config, and `dep_file` can be used to
+specify the Redis url:
 ```
 DOIT_CONFIG = {
     'backend': 'redis',
