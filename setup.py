@@ -6,7 +6,7 @@ setup(
     license='MIT',
     author='Simon Conseil',
     author_email='contact@saimon.org',
-    url='http://github.com/saimn/doit-report',
+    url='http://github.com/saimn/doit-redis',
     description='Redis backend for doit',
     long_description=open('README.md').read(),
     py_modules=['doit_redis'],
